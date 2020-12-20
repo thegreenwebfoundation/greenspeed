@@ -1,0 +1,17 @@
+{
+  "sustainable": {
+    "enable": true,
+    "pageViews": 100000,
+    "useGreenWebHostingAPI": true
+  },
+  "axe": {
+    "enable": true
+  },
+  "plugins": {
+    "add": "node_modules/@sitespeed.io/plugin-lighthouse"
+  },
+  "browsertime": {
+    "iterations": 1,
+    "headless": true
+  }
+}

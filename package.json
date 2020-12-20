@@ -1,0 +1,16 @@
+{
+  "name": "greenspeed-daily",
+  "version": "0.0.1",
+  "description": "run sitespeed, every day, on a cronjob with github actions, for a faster, more accessible, greener site",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "sitespeed-check": "sitespeed.io https://thegreenwebfoundation.org/ --config ./config.json"
+  },
+  "author": "Chris Adams",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@sitespeed.io/plugin-lighthouse": "github:sitespeedio/plugin-lighthouse",
+    "sitespeed.io": "^15.9.0"
+  }
+}
