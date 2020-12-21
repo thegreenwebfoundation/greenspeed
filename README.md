@@ -24,11 +24,11 @@ This gap is where greenspeed is designed to fit in.
 
 You fork the repo, update the site to check, and then switch on github actions:
 
-Every day, a github action:
+Every day, a github action will
 
-- will check the site you've named with sitespeed (this also runs lighthouse against a site, collecting the data it exposes too)
-- make a report available for you to download and view in a browser, giving loads of tailoered metrics, advice tailored to your site.
-- store the report data into git, in a seperate branch, so you can make comparisons in future, using tools [like Sitespeed's Compare ](https://compare.sitespeed.io/)
+- check the site you've named with sitespeed (this also runs lighthouse against a site, collecting the data it exposes too)
+- make a report available for you to download and view in a browser, giving loads of tailored metrics, and advice to fit your site.
+- store the report data into git, in a seperate branch, so you can make comparisons in future, using tools [like Sitespeed's Compare](https://compare.sitespeed.io/)
 
 ### Why Greenspeed exists
 
@@ -47,10 +47,10 @@ That's it.
 
 A cronjob will check the site for you every day, and every day, you'll have a little microsite generated, available in the Github Actions tab, giving you:
 
-- Google Lighthouse Scores (all the common metrics, like performance, search enegine performance, PWA suitability, and accessibility)
-- Sitespeed Coach scores (similar to above, but these reflct thaty your idea of a healthy internet might be different to Google, a trillion dollar advertising company's idea of a healthy internet)
-- A list of accessibility isues, and suggested fixes, provided by Axe.
-- Estimated figures for the carbon emissions that result from data being sent over the internet to access your site
+- **Google Lighthouse Scores** (all the common metrics, like performance, search enegine performance, PWA suitability, and accessibility)
+- **Sitespeed Coach Scores** (similar to above, but these reflect that your idea of a healthy internet might be different to Google, a trillion dollar advertising company's idea of a healthy internet)
+- **A list of accessibility issues if they exist, and suggested fixes**, provided by Axe.
+- **Estimated figures for the carbon emissions** that result from data being sent over the internet to access your site
 
 
 ## Todo
