@@ -1,7 +1,7 @@
 {
-  "name": "greenspeed-daily",
+  "name": "greenspeed",
   "version": "0.0.1",
-  "description": "run sitespeed, every day, on a cronjob with github actions, for a faster, more accessible, greener site",
+  "description": "Check every day how well a site works, in terms of accessibilty, perforance, carbon emissions, and more, using sitespeed, and lighthouse, and github actions",
   "main": "index.js",
   "scripts": {
     "test": "jest",
