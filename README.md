@@ -45,6 +45,7 @@ Every day, a GitHub action will:
 - Fork the repo
 - Change the URL that sitespeed is pointed at, and if necessary tweak budget settings for performance, carbon emissions, accessibility
 - Activate GitHub Actions for your new repo
+- Optionally - tweak the budget.json file, to update the performance, accessibilty and carbon metric thresholds for your project
 
 That's it.
 
