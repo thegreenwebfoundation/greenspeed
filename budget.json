@@ -1,27 +1,26 @@
 {
   "budget": {
     "transferSize": {
-      "total": 4000,
-      "html": 1000,
-      "javascript": 1000,
-      "css": 1000,
-      "image": 6000,
-      "font": 1000,
-      "favicon": 100,
-      "json": 500
+      "total": 4096000,
+      "html": 1048576,
+      "javascript": 1048576,
+      "css": 1048576,
+      "image": 1048576,
+      "font": 1048576,
+      "favicon": 10240,
+      "json": 1048576
     },
     "score": {
-      "accessibility": 100,
-      "bestpractice": 100,
-      "privacy": 100,
-      "performance": 100
+      "accessibility": 50,
+      "bestpractice": 50,
+      "privacy": 50,
+      "performance": 50
     },
     "lighthouse": {
-      "performance": 90,
-      "accessibility": 90,
-      "best-practices": 90,
-      "seo": 90,
-      "pwa": 90
+      "performance": 50,
+      "accessibility": 50,
+      "best-practices": 50,
+      "seo": 0
     },
     "sustainable": {
       "co2PerPageView": 2
