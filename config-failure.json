@@ -17,6 +17,6 @@
   },
   "outputFolder": "report",
   "budget": {
-    "configPath": "budget.json"
+    "configPath": "budget-failure.json"
   }
 }
