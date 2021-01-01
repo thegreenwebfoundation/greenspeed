@@ -1,0 +1,29 @@
+{
+  "budget": {
+    "transferSize": {
+      "total": 2048000,
+      "html": 524288,
+      "javascript": 524288,
+      "css": 524288,
+      "image": 524288,
+      "font": 524288,
+      "favicon": 5120,
+      "json": 524288
+    },
+    "score": {
+      "accessibility": 90,
+      "bestpractice": 90,
+      "privacy": 90,
+      "performance": 90
+    },
+    "lighthouse": {
+      "performance": 90,
+      "accessibility": 90,
+      "best-practices": 90,
+      "seo": 0
+    },
+    "sustainable": {
+      "co2PerPageView": 1
+    }
+  }
+}

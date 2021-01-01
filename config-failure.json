@@ -1,0 +1,22 @@
+{
+  "sustainable": {
+    "enable": true,
+    "pageViews": 100000,
+    "useGreenWebHostingAPI": true
+  },
+  "axe": {
+    "enable": true
+  },
+  "plugins": {
+    "add": "node_modules/@sitespeed.io/plugin-lighthouse"
+  },
+  "browsertime": {
+    "browser": "firefox",
+    "iterations": 1,
+    "headless": true
+  },
+  "outputFolder": "results",
+  "budget": {
+    "configPath": "budget-failure.json"
+  }
+}
