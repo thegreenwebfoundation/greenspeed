@@ -1,4 +1,4 @@
-name: Test out
+name: Test out (Failure)
 
 on: [push]
 
