@@ -20,7 +20,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
       - name: check a site against sitespeed
         run: npm run sitespeed-check:failure
       - name: Archive generated report as an artefact for later review
